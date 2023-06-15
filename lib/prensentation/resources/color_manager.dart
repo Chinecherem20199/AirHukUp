@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class ColorManager {
   static Color primary = HexColor.fromHex("#EF4335");
   static Color secondary = HexColor.fromHex("#2D286A");
+  static Color secondaryLight = HexColor.fromHex("#645290");
+  static Color secondaryTransparent = HexColor.fromHex("#A12D286A");
   static Color info = HexColor.fromHex("#2F80ED");
   static Color success = HexColor.fromHex("#27AE60");
   static Color warning = HexColor.fromHex("#E2B93B");
@@ -10,12 +12,15 @@ class ColorManager {
   static Color black1 = HexColor.fromHex("#000000");
   static Color black2 = HexColor.fromHex("#1D1D1D");
   static Color black3 = HexColor.fromHex("#282828");
+  static Color black4 = HexColor.fromHex("#16161D");
   static Color white = HexColor.fromHex("#FFFFFF");
   static Color gray1 = HexColor.fromHex("#333333");
   static Color gray2 = HexColor.fromHex("#4F4F4F");
   static Color gray3 = HexColor.fromHex("#828282");
   static Color gray4 = HexColor.fromHex("#BDBDBD");
   static Color gray5 = HexColor.fromHex("#E0E0E0");
+  static Color buttonTextColor = HexColor.fromHex("#FEFAFA");
+  static Color startTextColor = HexColor.fromHex("#E94057");
   static Color startButtonColor = HexColor.fromHex("#EF4335");
   static Color endButtonColor = HexColor.fromHex("#323755");
 }

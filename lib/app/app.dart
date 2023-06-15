@@ -1,5 +1,7 @@
-import 'package:air_hukup/prensentation/theme_manager.dart';
+import 'package:air_hukup/main.dart';
 import 'package:flutter/material.dart';
+
+import '../prensentation/splash/splash_screen.dart';
 
 class MyApp extends StatefulWidget {
   // const MyApp({Key? key}) : super(key: key); // default constructor
@@ -17,7 +19,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: getApplicationTheme(),
+      debugShowCheckedModeBanner: false,
+      // theme: getApplicationTheme(),
+      home: SplashScreen(),
+      routes: routes,
     );
   }
 }

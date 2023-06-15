@@ -1,5 +1,5 @@
-import 'package:air_hukup/prensentation/color_manager.dart';
-import 'package:air_hukup/prensentation/font_manager.dart';
+import 'package:air_hukup/prensentation/resources/color_manager.dart';
+import 'package:air_hukup/prensentation/resources/font_manager.dart';
 import 'package:flutter/material.dart';
 
 TextStyle _getTextStyle(
@@ -28,6 +28,14 @@ TextStyle getRegularInterText({
       fontSize, FontConstant.fontFamilyInter, FontWeightManager.regular, color);
 }
 
+TextStyle getRegularOpenSansText({
+  required double fontSize,
+  required Color color,
+}) {
+  return _getTextStyle(fontSize, FontConstant.fontFamilyOpenSans,
+      FontWeightManager.regular, color);
+}
+
 TextStyle getSemiBoldInterTextPrimary({
   required double fontSize,
   required Color color,
@@ -45,12 +53,11 @@ TextStyle getBoldInterText({
 }
 
 TextStyle getBoldOpenSansText({
-  double fontSize = 78.0,
+  required double fontSize,
   required Color color,
-  required FontWeight fontWeight,
 }) {
   return _getTextStyle(
-      fontSize, FontConstant.fontFamilyOpenSans, fontWeight, color);
+      fontSize, FontConstant.fontFamilyOpenSans, FontWeightManager.bold, color);
 }
 
 TextStyle getInterText11({

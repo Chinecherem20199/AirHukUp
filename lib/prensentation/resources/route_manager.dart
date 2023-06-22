@@ -1,4 +1,4 @@
-import 'package:air_hukup/prensentation/loginPhone/login_phone.dart';
+import 'package:air_hukup/prensentation/loginPhone/otp.dart';
 import 'package:air_hukup/prensentation/onboarding/onboarding.dart';
 import 'package:air_hukup/prensentation/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +22,7 @@ class RouteGenerator {
       case Routes.onBoarding2:
         return MaterialPageRoute(builder: (_) => OnBoardingRoute2());
       case Routes.phone:
-        return MaterialPageRoute(builder: (_) => LoginPhone());
+        return MaterialPageRoute(builder: (_) => OTP());
 
       default:
         return unDefinedRoute();

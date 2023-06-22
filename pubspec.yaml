@@ -15,6 +15,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   riverpod: ^2.3.6
   flutter_native_splash: ^2.2.19
+  intl_phone_number_input: ^0.7.3+1
+  gradient_borders: ^1.0.0
+  # Phone number input
+#  country_picker: ^2.0.20
 
 dev_dependencies:
   flutter_test:

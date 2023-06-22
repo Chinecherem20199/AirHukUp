@@ -1,5 +1,18 @@
 import 'package:flutter/material.dart';
 
+class Sizes extends StatelessWidget {
+  const Sizes({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    Size screenSize = MediaQuery.of(context).size;
+    Orientation orientation = MediaQuery.of(context).orientation;
+    double screenWidth = MediaQuery.of(context).size.width;
+    double screenHeight = MediaQuery.of(context).size.height;
+    return Container();
+  }
+}
+
 double screenWidth(BuildContext context) {
   // TODO: "Comment"
   //To create the width of the screen, Note always set it under build

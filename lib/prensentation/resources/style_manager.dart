@@ -44,6 +44,14 @@ TextStyle getSemiBoldInterTextPrimary({
       FontWeightManager.semiBold, ColorManager.primary);
 }
 
+TextStyle getSemiBoldInterText({
+  required double fontSize,
+  required Color color,
+}) {
+  return _getTextStyle(fontSize, FontConstant.fontFamilyInter,
+      FontWeightManager.semiBold, color);
+}
+
 TextStyle getBoldInterText({
   required double fontSize,
   required Color color,
